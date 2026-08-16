@@ -1,8 +1,5 @@
 const portfolioItems = [
-    { title: "Test Controller", src: "images/controller.png" },
-    { title: "Series Studio", src: "images/studio.jpg" },
-    { title: "Campaign Editorial", src: "images/editorial.jpg" },
-    { title: "Client Feature", src: "images/client.jpg" }
+    { title: "Test Controller", src: "images/controller.gif" },
 ];
 
 const galleryContainer = document.getElementById('galleryContainer');
@@ -24,6 +21,7 @@ function renderGallery() {
 
         const imgElement = gridItem.querySelector('img');
         
+        // Hides the box completely if the gif/image file hasn't been uploaded yet
         imgElement.onerror = () => {
             gridItem.style.display = 'none';
         };
