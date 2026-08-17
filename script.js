@@ -1,5 +1,5 @@
 const portfolioItems = [
-    { title: "Test Controller", src: "images/controller.gif" },
+    { title: "Test Controller", src: "images/controller.gif?v=2" },
 ];
 
 const galleryContainer = document.getElementById('galleryContainer');
